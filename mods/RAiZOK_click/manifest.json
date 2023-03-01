@@ -1,0 +1,45 @@
+{
+    "manifest_version": 3,
+    "name": "Clicky",
+    "description": "For the clicky keyboard enjoyers.",
+    "version": "1.0",
+    "icons":
+    {
+        "512": "icon.png"
+    },
+    "author": "Opera Software",
+    "developer":
+    {
+        "name": "Opera Software"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+        
+            "keyboard_sounds":
+            {
+                "TYPING_LETTER":
+                [
+                    "sounds/Key_R.mp3",
+                    "sounds/Key2_R.mp3"
+
+                ],
+                "TYPING_ENTER":
+                [
+                    "sounds/Enter_R.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "sounds/Space_R.mp3"
+                ],
+                "TYPING_BACKSPACE":
+                [
+                    "sounds/Delete_R.mp3"
+                ]
+            }
+       }
+    }
+    
+}
